@@ -28,7 +28,7 @@ export default function ProfilePage() {
 	return (
             <div className="bg-[#fafafc] h-[100vh]">
                 <ProfileHeader nickname={isPending ? 'Loading...' : userDto.nickname}/>
-                <div className="max-w-[1200px] mx-auto">
+                <main className="max-w-[1200px] mx-auto pl-3 pr-6">
                     <h2 className="border-b border-solid border-[#e7e8ee] mt-10 mr-4 mb-4 pb-4">
                         Центр учётной записи
                     </h2>
@@ -52,7 +52,7 @@ export default function ProfilePage() {
                             <Route path='/personal-info' element={<PersonalInfo userData={userDto}/>}/>
                         </Routes>
                     </section>
-                </div>
+                </main>
             </div>
 	);
 }
