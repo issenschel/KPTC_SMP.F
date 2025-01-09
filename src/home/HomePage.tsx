@@ -62,7 +62,7 @@ export default function HomePage() {
                         <div className='relative z-20'>
                             <p>KPTC SMP - проект, где игрок сам выбирает свою судьбу.</p>
                             <p>Объединяйся с другими игроками, или развивайся в одиночку.</p>
-                            <p>Присоединяйся к серверу уже сейчас.</p>
+                            <p>Присоединяйся к серверу уже сейчас. </p>
                         </div>
                     </div>
                     <div className={`bg-[url(${rightFire})]`}>
