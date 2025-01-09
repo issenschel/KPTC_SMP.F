@@ -1,7 +1,9 @@
+import { ReactNode } from "react"
+
 interface Props {
     title: string,
-    LinkButton?: any,
-    children?: any,
+    LinkButton?: ReactNode | string,
+    children?: ReactNode,
     style?: string
 }
 export default function AccountInfoBlock({title, LinkButton, children, style}: Props) {

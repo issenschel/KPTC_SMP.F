@@ -3,7 +3,7 @@ import { ReactNode } from "react"
 interface Props {
     itemTitle: string,
     subTitle?: string
-    endItem?: ReactNode,
+    endItem?: ReactNode | string,
 }
 
 export default function InfoBlockItem({itemTitle, subTitle, endItem}: Props) {
