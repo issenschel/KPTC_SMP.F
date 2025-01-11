@@ -13,7 +13,7 @@ export default function Overlay({ children }: Props) {
 	return (
 		<>
 			{ isShow && createPortal(
-			<div className="flex fixed z-10 
+			<div className="flex fixed z-50 
 				inset-0 h-full overflow-auto 
 				bg-black/60" 
 				onClick={setClose}>
